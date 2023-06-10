@@ -4,7 +4,11 @@ import Application from "./components/Application";
 import "./components/style.css";
 
 function App() {
-    return <Application />;
+    return (
+        <div>
+            <Application />
+        </div>
+    );
 }
 
 export default App;
